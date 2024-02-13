@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+body > header {
+    background-color: palevioletred;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+
+header.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.articles article img {
+/*height: 180px;*/
+width: 100%;
+
+}
+.articles article {
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+section h2 
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    background-color: violet;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+
+.articles article h5,
+.articles article h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.articles article h3 {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 38px;
+}
+
+#Programminglanguage {
+    background-color: #DCDCDC;
+}
+
+#Programminglanguage .articles article a{
+    background-color: #ff9f1a;
+    color: #fff;
+}
+#technology {
+    background-color: #ADD8E6;
+}
+#techonology .articles article a{
+    background-color: #ff9f1a;
+    color: #fff;
+}
+

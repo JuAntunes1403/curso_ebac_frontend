@@ -1,284 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head class="contanier">
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Portal De Tecnologias</title>
-    <link rel="stylesheet" href="main.css" />
+    <title>Games Shop - sua loja de games</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header-container">
-      <h1>Meu Portal De Tecnologias</h1>
-      <nav>
-        <ul>
-          <li>
-            <a
-              href="#Linguagens de programação"
-              title="Ir para seção de Linguagens de programação"
-              >Linguagens de programação</a
-            >
-          </li>
-          <li>
-            <a href="#Tecnologias" title="Ir para seção de Tecnologias"
-              >Tecnologias</a
-            >
-          </li>
-        </ul>
-      </nav>
+    <header>
+      <div class="container">
+        <h1>Games Shop</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="#about">Sobre a loja</a>
+            </li>
+            <li>
+              <a href="#contact">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+      </div>t
     </header>
-    <section id="Programminglanguage">
-      <div class="container">
-        <h2>Linguagens De Programação</h2>
-        <div class="articles">
-          <article>
-            <h3>
-              Construindo Aplicações Modernas: As Melhores Práticas em
-              JavaScript
-            </h3>
+    <main>
+        <section id="about">
+          <div class="container">
             <img
-              src="https://l3software.com.br/wp-content/uploads/2019/03/jscrambler.jpg"
+              class="store-front"
+              src="./image/Loja2.jpg"
+              alt="Fachada da loja Games Shop"
             />
-            <br />
-            <time class="creation-date">14/05/2023 09:30 </time>
-            <h5>
-              Desenvolver aplicações modernas em JavaScript demanda uma
-              abordagem consciente e alinhada às melhores práticas. Ao adotar
-              uma arquitetura orientada a componentes, utilizar frameworks
-              eficientes como React ou Angular, gerenciar o estado de forma
-              cuidadosa, implementar testes automatizados, otimizar o desempenho
-              e priorizar a segurança, os desenvolvedores podem criar soluções
-              robustas e escaláveis. Este enfoque não apenas facilita o
-              desenvolvimento, mas também garante que as aplicações estejam
-              preparadas para enfrentar os desafios dinâmicos do cenário
-              tecnológico atual. Em resumo, a busca por excelência nas práticas
-              em JavaScript é a chave para construir aplicações modernas que se
-              destacam em termos de eficiência, desempenho e segurança.
-            </h5>
-            <a href="">Leia mais</a>
-          </article>
-          <article>
-            <h3>
-              Construindo Interfaces Incríveis: Uma Jornada Profunda no React
-              Native
-            </h3>
-            <img
-              src="https://sujeitoprogramador.com/wp-content/uploads/2020/02/Captura-de-Tela-2020-02-18-a%CC%80s-23.15.47.png"
-            />
-            <time class="creation-date">22/11/2023 13:45 </time> <br />
-            <h5>
-              Embarcar na jornada de construir interfaces incríveis com React
-              Native é mergulhar em um universo fascinante de desenvolvimento
-              mobile. Este texto explora as nuances dessa tecnologia, destacando
-              a importância de ir além do básico para criar experiências de
-              usuário verdadeiramente excepcionais.
-              <ol>
+            <div>
+              <h2>Sobre a loja</h2>
+              <p>
+                Games Shop é o destino definitivo para entusiastas de jogos que buscam a melhor experiência em entretenimento digital.
+                Nossa loja oferece uma ampla variedade de jogos para todas as plataformas, desde os clássicos atemporais até os últimos lançamentos empolgantes. 
+                Com uma seleção cuidadosamente curada, garantimos que cada título em nossa prateleira atenda aos padrões mais elevados de qualidade e diversão.
+              </p>
+              <p>
+                Além de jogos, a Games Shop oferece uma gama de acessórios, consoles e equipamentos de ponta para aprimorar a experiência de jogo.
+                 Nossa equipe dedicada e conhecedora está sempre pronta para ajudar, fornecendo recomendações personalizadas e orientações técnicas.
+              </p>
+              <p>
+                Na Games Shop, não apenas vendemos jogos; nós cultivamos uma comunidade de jogadores entusiastas. 
+                Realizamos eventos, torneios e promoções regulares para unir a comunidade e celebrar a paixão pelos games. 
+                Se você está em busca da última novidade em jogos ou procura reviver os clássicos, a Games Shop é o seu destino definitivo para tudo relacionado a games.
+              </p>
+              <ul class="brands-list">
                 <li>
-                  Componentização Eficiente: A magia do React Native reside na
-                  sua abordagem componentizada. Ao compreender a arte de dividir
-                  interfaces em componentes reutilizáveis, os desenvolvedores
-                  podem construir aplicativos mais escaláveis e fáceis de
-                  manter, proporcionando uma base sólida para interfaces
-                  incríveis.
+                  <img src="/image/nintendo.png" alt="Nintendo" />
                 </li>
-
                 <li>
-                  Design Responsivo e Intuitivo: A jornada no React Native
-                  inclui uma profunda imersão na criação de interfaces
-                  responsivas e intuitivas. Adotar princípios de design mobile,
-                  garantir a fluidez nas transições e otimizar a usabilidade são
-                  elementos essenciais para cativar os usuários e criar
-                  experiências envolventes.
+                    <img src="/image/xbox.png" alt="Xbox" />
                 </li>
-
                 <li>
-                  Animações Impactantes: A capacidade do React Native de
-                  integrar animações de maneira eficiente permite a criação de
-                  interfaces dinâmicas e atraentes. Explorar as possibilidades
-                  das animações não apenas adiciona um toque de sofisticação,
-                  mas também contribui para uma experiência do usuário
-                  memorável.
+                    <img src="/image/playstation.png" alt="Playstation" />
                 </li>
-
-                <li>
-                  Navegação Fluida: A navegação é uma peça fundamental na
-                  construção de interfaces incríveis em React Native.
-                  Implementar sistemas de navegação eficazes, como o React
-                  Navigation, garante uma transição suave entre telas, criando
-                  uma experiência de usuário mais coesa e agradável.
-                </li>
-
-                <li>
-                  Otimização de Desempenho: A jornada profunda no React Native
-                  envolve também a otimização contínua do desempenho do
-                  aplicativo. Com técnicas como o Lazy Loading de componentes e
-                  a gestão eficiente de recursos, os desenvolvedores podem
-                  garantir que suas interfaces incríveis não comprometam a
-                  performance do aplicativo.
-                </li>
-              </ol>
-              Em resumo, a construção de interfaces incríveis com React Native é
-              uma jornada que combina a habilidade técnica com a criatividade,
-              resultando em aplicativos mobile que não apenas atendem, mas
-              superam as expectativas dos usuários. Ao compreender as nuances da
-              plataforma e explorar suas capacidades, os desenvolvedores podem
-              transformar suas ideias em experiências visuais cativantes e
-              memoráveis.
-            </h5>
-            <a href="">Leia mais</a>
-          </article>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contact-methods">
+                    <div>
+                        <h3>Fale conosco</h3> 
+                        <form>
+                            <input type="text" placeholder="Seu nome" required/>
+                            <input type="email" placeholder="Seu e-mail" required/>
+                            <input type="tel" placeholder="Seu telefone (opcional)" />
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos acompanhe</h3> 
+                        <ul class="social-links">
+                            <li>
+                                <a href="#" title="Siga-nos no Instagram">
+                                    <img src="./image/instagram.png" alt="Logo do Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebok">
+                                    <img src="./image/facebook.png" alt="Logo do Facebok" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Visite nosso canal no Youtube">
+                                    <img src="./image/youtube.png" alt="Logo do Youtube" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Venha até nós</h3> 
+                        <p>
+                            Rua React nº 47 - Vila CSS - São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2024
+            </p>
         </div>
-      </div>
-    </section>
-    <section id="technology">
-      <div class="container">
-        <h2>Tecnologia</h2>
-        <div class="articles">
-          <article>
-            <h3>
-              IA e o Futuro do Trabalho: Adaptação, Inovação e Impacto Social
-            </h3>
-
-            <img
-              src="https://www.remessaonline.com.br/blog/wp-content/uploads/2023/05/ia-generativa.jpg.webp"
-            />
-            <br />
-            <time class="creation-date">12/01/2024 11:24 </time>
-            <h5>
-              O avanço acelerado da Inteligência Artificial (IA) está
-              redefinindo o cenário profissional de maneiras sem precedentes.
-              Este texto explora a interseção entre IA e o futuro do trabalho,
-              destacando a necessidade crucial de adaptação, a promessa de
-              inovação e os impactos sociais inerentes a essa revolução
-              tecnológica.
-              <ol>
-                <li>
-                  Adaptação Necessária: À medida que a IA se torna mais
-                  integrada nas operações empresariais, a capacidade de
-                  adaptação torna-se uma habilidade essencial para profissionais
-                  de todas as áreas. A aprendizagem contínua e a flexibilidade
-                  se tornam os alicerces da empregabilidade, permitindo que os
-                  trabalhadores se ajustem às novas demandas e oportunidades que
-                  surgem com a automação e a IA.
-                </li>
-
-                <li>
-                  Inovação Impulsionada pela IA: A IA não é apenas uma ameaça; é
-                  também uma ferramenta poderosa para impulsionar a inovação.
-                  Empresas que abraçam a IA encontram novas formas de otimizar
-                  processos, melhorar a eficiência e oferecer produtos e
-                  serviços mais personalizados. A capacidade de colaboração
-                  eficaz entre humanos e sistemas inteligentes torna-se uma
-                  força propulsora para a inovação nos ambientes de trabalho.
-                </li>
-
-                <li>
-                  Impacto Social e Econômico: A implementação massiva da IA
-                  inevitavelmente tem implicações sociais e econômicas. Enquanto
-                  cria novas oportunidades, a automação também pode levar à
-                  reestruturação de empregos tradicionais. O equilíbrio entre a
-                  automação e a preservação de empregos humanos torna-se um
-                  desafio crucial para governos, empresas e a sociedade em
-                  geral.
-                </li>
-
-                <li>
-                  Desenvolvimento de Habilidades para o Futuro: O futuro do
-                  trabalho exigirá um conjunto diversificado de habilidades. A
-                  ênfase em habilidades interpessoais, criatividade, resolução
-                  de problemas e ética digital se torna essencial. Investir em
-                  programas de educação e treinamento é fundamental para
-                  preparar os trabalhadores para os desafios e oportunidades
-                  proporcionados pela IA.
-                </li>
-
-                <li>
-                  Colaboração Homem-Máquina: A verdadeira transformação ocorre
-                  quando a IA é encarada como uma parceira, não como uma
-                  substituta. A colaboração homem-máquina torna-se uma narrativa
-                  central, onde humanos e sistemas inteligentes se complementam,
-                  ampliando as capacidades individuais e coletivas para
-                  impulsionar o progresso econômico e social.
-                </li>
-              </ol>
-              Em resumo, a interação entre IA e o futuro do trabalho é complexa,
-              mas oferece um potencial significativo para aprimorar a sociedade.
-              A chave está na habilidade de adaptação, na exploração criativa
-              das oportunidades e na consideração ética ao moldar esse novo
-              capítulo na evolução do trabalho.
-            </h5>
-            <a href="">Leia mais</a>
-          </article>
-          <article>
-            <h3>
-              DevOps na AWS: Automatização, Entrega Contínua e Colaboração
-              Eficiente
-            </h3>
-            <img
-              src="https://www.itexperts.com.br/wp-content/uploads/2023/03/29153501/servicosaws.png"
-            />
-            <br />
-            <time class="creation-date">06/01/2024 15:13 </time>
-            <h5>
-              A integração harmoniosa de práticas DevOps com os serviços da
-              Amazon Web Services (AWS) representa uma evolução significativa na
-              entrega de software. Nesse contexto, a automatização, entrega
-              contínua e colaboração eficiente se tornam pilares essenciais para
-              a eficácia operacional e o desenvolvimento ágil.
-              <ol>
-                <li>
-                  >Automatização para Eficiência: A AWS oferece uma variedade de
-                  serviços que facilitam a automatização de tarefas
-                  operacionais. Desde o provisionamento de infraestrutura até a
-                  configuração de ambientes, ferramentas como AWS CloudFormation
-                  e AWS OpsWorks permitem que as equipes reduzam a intervenção
-                  manual, aumentando a eficiência operacional.
-                </li>
-
-                <li>
-                  Entrega Contínua na Nuvem: A entrega contínua (CI/CD) na AWS é
-                  impulsionada por serviços como AWS CodePipeline e AWS
-                  CodeDeploy. Essas ferramentas possibilitam a automação de
-                  pipelines de integração, teste e implantação, garantindo que
-                  as mudanças no código sejam entregues de forma rápida e
-                  consistente.
-                </li>
-
-                <li>
-                  Infraestrutura como Código (IaC): A prática de IaC é
-                  fundamental para DevOps na AWS. Ferramentas como AWS
-                  CloudFormation permitem que a infraestrutura seja definida
-                  como código, facilitando a replicação consistente de
-                  ambientes, versionamento e controle de mudanças.
-                </li>
-
-                <li>
-                  Monitoramento e Feedback Rápido: A AWS fornece serviços
-                  robustos para monitoramento, como Amazon CloudWatch, que
-                  possibilita a coleta de métricas, logs e alertas. O feedback
-                  rápido dessas informações permite às equipes identificar e
-                  solucionar problemas de forma proativa, contribuindo para uma
-                  entrega mais estável e confiável.
-                </li>
-
-                <li>
-                  A integração de serviços AWS com ferramentas de colaboração,
-                  como AWS Chatbot para Slack, promove uma comunicação eficaz
-                  entre as equipes de desenvolvimento e operações. Isso facilita
-                  a resolução rápida de problemas, melhorando a colaboração e a
-                  entrega conjunta de software de alta qualidade.
-                </li>
-              </ol>
-              Em resumo, a adoção de práticas DevOps na AWS não apenas
-              automatiza processos, mas também promove uma cultura de
-              colaboração, feedback contínuo e entrega eficiente. Ao aproveitar
-              os recursos específicos da AWS, as equipes podem acelerar o ciclo
-              de vida do desenvolvimento, garantindo uma entrega de software
-              mais rápida, confiável e alinhada às demandas do mercado.
-            </h5>
-            <a href="">Leia mais</a>
-          </article>
-        </div>
-      </div>
-    </section>
+    </footer>
   </body>
 </html>
